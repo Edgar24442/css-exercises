@@ -3,8 +3,11 @@
     font-family: Verdana, "DejaVu Sans",  sans-serif;  /* Font list with fallback */
 }
 
-/* In order to have have 1 css file i made a distinction for the 2 <div> in the html file*/
+/*  In order to have have 1 css file i made a distinction 
+    for the 2 <div> in the html file
+*/
 .first-div {
     color: blue; /* changing the color of the text must come first */
     font-size: 48px;
 }
+
