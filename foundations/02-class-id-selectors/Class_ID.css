@@ -1,7 +1,10 @@
-stylesheet {
-    background-color: red; 
-    color: white;
-    font-size: 32px;
-    text-align: center;
-    font-weight: bold;
+.odd {
+    background-color: rgb(253, 130, 130); 
+    font-family: Verdana, "DejaVu Sans",  sans-serif;  /* Font list with fallback */
+}
+
+/* In order to have have 1 css file i made a distinction for the 2 <div> in the html file*/
+.first-div {
+    color: blue; /* changing the color of the text must come first */
+    font-size: 48px;
 }
