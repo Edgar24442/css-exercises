@@ -1,20 +1,23 @@
-body .para{
+ .para {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  font-size: 28px;
+  font-size: 22px;
 }
+ 
 
-/* .para, */
-.small-para {
+ .small-para {
   color: hsl(0, 0%, 0%);
   font-weight: 800;
+  font-size: 14px;
 }
-
-.small-para {
+/*
+ .small-para {
   font-size: 14px;
   font-weight: 800;
-}
+} 
+*/
 
+/*
 .para {
   font-size: 22px;
 }
@@ -31,6 +34,8 @@ body .para{
   font-size: 20px;
 }
 
+
+
 .child {
   color: rgb(0, 0, 0);
   font-weight: 800;
@@ -42,3 +47,5 @@ div.text {
   font-size: 22px;
   font-weight: 100;
 }
+
+*/
