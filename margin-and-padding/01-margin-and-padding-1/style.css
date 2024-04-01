@@ -25,4 +25,7 @@ body {
   /* CHANGE ME */
   padding: 32px;
   margin-left: auto;
+  /* line 27 sets the left margin of elements with the class "three" to "auto". This effectively centers the 
+  element horizontally within its container by pushing it to the right as much as possible.
+  */
 }
