@@ -3,6 +3,7 @@
   background: papayawhip;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
@@ -21,7 +22,6 @@ ul {
   gap: 8px;
   padding: 8px;
 }
-
 
 a {
   font-size: 22px;
