@@ -43,6 +43,12 @@ a {
   color: rebeccapurple;
 }
 
+.left {
+  display: flex;
+}
+
 ul {
   list-style-type: none;
+  display: flex;
+  gap: 8px;
 }
