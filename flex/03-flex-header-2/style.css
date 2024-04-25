@@ -49,14 +49,21 @@ a {
 
 .left {
   display: flex;
+  gap: 16px;
+  align-items: center;
 }
+
 
 .right {
   display: flex;
+  gap: 16px;
+  align-items: center;
 }
 
 ul {
   list-style-type: none;
   display: flex;
-  gap: 8px;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
 }
