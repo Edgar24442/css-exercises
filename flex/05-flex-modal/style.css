@@ -78,8 +78,8 @@ button.cancel {
 .container1{
   border: #00FF00 solid 1px;
   display: flex;
-  justify-content: row;
   gap: 10px;
+  padding: 10px;
 }
 
 .container2{
