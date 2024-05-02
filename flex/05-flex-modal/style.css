@@ -69,8 +69,22 @@ button.cancel {
   color: royalblue;
 }
 
-/* container1 has entire body in container, I want to have icon in a colum by itself*/
+.header{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* container1 has header, icon, and button*/
 .container1{
   border: #00FF00 solid 1px;
+  display: flex;
+  justify-content: row;
+  gap: 10px;
+}
 
+.container2{
+  border: orange solid 1px;
+  display: flex;
+  justify-content: row;
+  gap: 150px;
 }
