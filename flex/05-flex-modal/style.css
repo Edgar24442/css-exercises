@@ -92,4 +92,5 @@ button.cancel {
 .container3{
   border: purple solid 1px;
   display: flex;
+  justify-content: column;
 }
