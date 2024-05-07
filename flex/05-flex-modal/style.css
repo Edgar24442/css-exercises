@@ -88,3 +88,8 @@ button.cancel {
   justify-content: row;
   gap: 150px;
 }
+
+.container3{
+  border: purple solid 1px;
+  display: flex;
+}
