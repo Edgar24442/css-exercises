@@ -78,6 +78,7 @@ button.cancel {
 .container1{
   border: #00FF00 solid 1px;
   display: flex;
+  justify-content: wrap;
   gap: 10px;
   padding: 10px;
 }
@@ -92,12 +93,14 @@ button.cancel {
  /* width: 1000px; */
 }
 
-/*
+
 .container3{
   border: purple solid 1px;
   display: flex;
+  width: 406px;
 }
 
+/*
 .container4{
   border: red solid 1px;
   display: flex;
