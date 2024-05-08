@@ -82,20 +82,22 @@ button.cancel {
   padding: 10px;
 }
 
+/*
 .container2{
   border: orange solid 1px;
   display: flex;
   justify-content: row;
-  gap: 150px;
+ /*gap: 150px; --
+  width: 1000px;
 }
 
 .container3{
   border: purple solid 1px;
   display: flex;
-  justify-content: column;
 }
 
 .container4{
   border: red solid 1px;
   display: flex;
 }
+*/
