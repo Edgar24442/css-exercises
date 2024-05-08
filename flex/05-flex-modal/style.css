@@ -86,8 +86,8 @@ button.cancel {
 .container2{
   border: orange solid 1px;
   display: flex;
-  justify-content: row;
   flex-grow: 1;
+  justify-content: space-between;
  /* gap: 150px; */
  /* width: 1000px; */
 }
