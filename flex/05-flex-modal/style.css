@@ -76,33 +76,39 @@ button.cancel {
 
 /* container1 has header, icon, and button*/
 .container1{
-  border: #00FF00 solid 1px;
+  /*border: #00FF00 solid 1px;*/
   display: flex;
+  flex-direction: row;
   justify-content: wrap;
   gap: 10px;
   padding: 10px;
 }
 
-
 .container2{
-  border: orange solid 1px;
+  /*border: orange solid 1px; */
   display: flex;
+  flex-direction: column;
   flex-grow: 1;
-  justify-content: space-between;
- /* gap: 150px; */
- /* width: 1000px; */
+  padding: 10px;
 }
-
 
 .container3{
-  border: purple solid 1px;
+  /*border: purple solid 1px;*/
   display: flex;
-  width: 406px;
+  justify-content: space-between;
+
 }
 
-/*
 .container4{
-  border: red solid 1px;
+  /*border: red solid 1px;*/
   display: flex;
+  /*width: 406px;*/
+  flex-shrink: 3;
+  /*justify-content: flex;*/
 }
-*/
+
+.container5{
+  /* border: rgb(189, 189, 228) solid 1px; */
+  display: flex;
+  gap: 5px;
+}
