@@ -34,6 +34,15 @@ input {
   list-style-type: none;
 }
 
+.left-links {
+  outline: greenyellow solid 1px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 110px;
+  justify-content: space-between;
+  
+}
 .header ul {
   list-style-type: none;
 }
