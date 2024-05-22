@@ -103,12 +103,14 @@ button.cancel {
   /*border: red solid 1px;*/
   display: flex;
   /*width: 406px;*/
-  flex-shrink: 3;
   /*justify-content: flex;*/
+  margin-bottom: 16px;
+
 }
 
 .container5{
   /* border: rgb(189, 189, 228) solid 1px; */
   display: flex;
   gap: 5px;
+  
 }
