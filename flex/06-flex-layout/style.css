@@ -26,6 +26,8 @@ input {
   margin-bottom: 16px;
 }
 
+
+
 .header {
   outline: red solid 1px;
   display: flex;
@@ -34,17 +36,34 @@ input {
   list-style-type: none;
 }
 
-.left-links {
+.header .left-links {
   outline: greenyellow solid 1px;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  width: 110px;
-  justify-content: space-between;
-  
+  gap: 1.5rem;  
+  padding: 16px;
 }
+
+.header .right-links {
+  outline: greenyellow solid 1px;
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem; 
+  padding: 16px;
+}
+
 .header ul {
   list-style-type: none;
 }
 
+.content{
+  outline: orchid solid 1px;
+  display: flex;
+  flex-direction: column;
+}
 
+.input{
+  outline: rgb(112, 218, 209) solid 1px;
+  display: flex;
+  justify-content: center;
+}
