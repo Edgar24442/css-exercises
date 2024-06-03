@@ -26,8 +26,6 @@ input {
   margin-bottom: 16px;
 }
 
-
-
 .header {
   outline: red solid 1px;
   display: flex;
@@ -66,4 +64,25 @@ input {
   outline: rgb(112, 218, 209) solid 1px;
   display: flex;
   justify-content: center;
+}
+
+.buttons{
+  outline: rgb(199, 218, 112) solid 1px;
+  display: flex;
+  justify-content: center;
+}
+
+/* creating space and making the padding around the buttons bigger */
+button {
+  padding: 10px 12px;
+  margin: 2px;
+
+}
+
+/* put img in flex box to make sure it stays center as widow grows and shrinks. */
+.picture{
+  outline: purple solid 1px;;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
