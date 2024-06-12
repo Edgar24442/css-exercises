@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+
 body {
   height: 100vh;
   margin: 0;
@@ -19,7 +20,7 @@ button {
 }
 
 input {
-  border: 1px solid #ddd;
+  /*border: 1px solid #ddd;*/
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
@@ -27,15 +28,16 @@ input {
 }
 
 .header {
-  outline: red solid 1px;
+  /*outline: red solid 1px;*/
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   list-style-type: none;
 }
 
+
 .header .left-links {
-  outline: greenyellow solid 1px;
+  /*outline: greenyellow solid 1px; */
   display: flex;
   flex-direction: row;
   gap: 1.5rem;  
@@ -43,7 +45,7 @@ input {
 }
 
 .header .right-links {
-  outline: greenyellow solid 1px;
+  /*outline: greenyellow solid 1px;*/
   display: flex;
   flex-direction: row;
   gap: 1.5rem; 
@@ -55,19 +57,19 @@ input {
 }
 
 .content{
-  outline: orchid solid 1px;
+  /*outline: orchid solid 1px;*/
   display: flex;
   flex-direction: column;
 }
 
 .input{
-  outline: rgb(112, 218, 209) solid 1px;
+  /*outline: rgb(112, 218, 209) solid 1px;*/
   display: flex;
   justify-content: center;
 }
 
 .buttons{
-  outline: rgb(199, 218, 112) solid 1px;
+  /*outline: rgb(199, 218, 112) solid 1px;*/
   display: flex;
   justify-content: center;
 }
@@ -80,9 +82,38 @@ button {
 }
 
 /* put img in flex box to make sure it stays center as widow grows and shrinks. */
-.picture{
-  outline: purple solid 1px;;
+.picture {
+  /*outline: purple solid 1px;*/
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+footer {
+  /*outline: purple solid 1px;/* Just a visual aid, can be removed */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+  position: fixed; /* Fixed position so it sticks to the bottom */
+  left: 0; /* Positioned at the left edge */
+  bottom: 0; /* Positioned at the bottom edge */
+  width: 100%; /* Takes up the full width of the viewport */
+  background: #e0dfdfce; /* Background color for the footer */
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+
+footer .left-links, footer .right-links {
+  padding: 1px;
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;  
+  padding: 16px;
+}
+
+
+
