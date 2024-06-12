@@ -18,10 +18,25 @@ body {
   justify-content: wrap;
 }
 
+/* contains all the cards. need to figure how to make it into 2x3 and 3x2 by making page smaller */
+.cards_container{
+  border: rgb(115, 128, 0) solid 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: wrap;
+}
+
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  position: fixed;
+  height: 72px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+
 }
 
 .sidebar {
