@@ -10,6 +10,14 @@ body {
   color: white;
 }
 
+/* trying to all both container into 1 big container for the body */
+.body_container{
+  border: purple solid 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: wrap;
+}
+
 .footer {
   height: 72px;
   background: #eee;
