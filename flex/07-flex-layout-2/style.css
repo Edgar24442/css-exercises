@@ -24,8 +24,9 @@ body {
 .cards_container{
   border: rgb(115, 128, 0) solid 1px;
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  flex-flow: row wrap; /*solution 1*/
+  /*flex-direction: column;*/
+  /*justify-content: flex-start;*/
 }
 
 .footer {
